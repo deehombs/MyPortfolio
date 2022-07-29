@@ -1,18 +1,40 @@
+*
+{
+    box-sizing: border-box;
+}
+
+#white-box {
+    background-color: white;
+    position: absolute;
+    width: 800px;
+    height: 876.px;
+    top: 100px;
+    left:125px;
+    right:125px
+}
 #pink-side {
     background-color: rgb(245,190,219);
     width: 605px;
     height: 600px;
-   
 }
 
 .coloured-sides{
     width:1210px;
+    position:relative;
     display: flex;
+}
+.page {
+    position:relative
 }
 
 #blue-side {
     background-color: rgb(0,62,123);
     width: 605px;
     height: 600px;
-    
+}
+
+#nav-buttons {
+    position: absolute;
+    display:flex;
+    justify-content: flex-end;
 }
