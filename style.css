@@ -1,0 +1,18 @@
+#pink-side {
+    background-color: rgb(245,190,219);
+    width: 605px;
+    height: 600px;
+   
+}
+
+.coloured-sides{
+    width:1210px;
+    display: flex;
+}
+
+#blue-side {
+    background-color: rgb(0,62,123);
+    width: 605px;
+    height: 600px;
+    
+}
