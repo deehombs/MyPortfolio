@@ -87,7 +87,6 @@ img {
     width:1201px;
     height: 800px;
     position:relative;
-    border: solid 1px black;
     display: flex;
 
 }
