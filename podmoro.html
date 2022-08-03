@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="podmoro.css"/>
+    <title>Podmoro Timer</title>
+</head>
+<body>
+    <h1> Podmoro Timer</h1>
+
+    <div class="clock">
+        <div class="mins">0</div>
+        <div>:</div>
+        <div class="secs">00</div>
+        <audio src="https://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
+        <svg class="progress-ring" height ="120" width="120">
+        <circle 
+             class="progress-ring"
+             stroke-width="8"
+             fill="transparent"
+             r="50"
+             cx="60"
+             cy="60"/>
+        </svg>
+    </div>
+
+    <div class="button-group">
+        <button class="start">Start</button>
+        <button class="pause">Pause</button>
+        <button class="reset" >Reset</button>
+        
+    </div>
+
+    <form action=".">
+        <input type="number" value="1" id="focus-time"/>
+        <input type="number" value="1" id="break-time"/>
+        <button type="submit">Save Settings </button>
+    </form>
+    <footer>deehombs</footer>
+    
+    <script src="setting.js"></script>
+    <script src="timer"></script>
+    <script src="progress"></script>
+
+</body>
+</html>

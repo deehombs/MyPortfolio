@@ -44,11 +44,41 @@
     padding: 20px;
 
 }
-.my-buttons {
+.menuItem {
     background-color: white;
     border: none;
     font-size: 16px;
 }
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+.closeIcon {
+    display: none;
+  }
+.showMenu {
+    transform: translateY(0);
+  }        
 #my-image {
     border-radius: 0px 0px 0px 50px;
     width:290px;
@@ -181,4 +211,13 @@ img {
 }
 
 #form-content {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    bottom: 25px
+}
+#form-title {
+    font-size: 30px; 
 }

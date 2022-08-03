@@ -21,10 +21,17 @@
      <div id="white-box">
       <div id= "nav-buttons">
          <nav>
-           <button type ="button" class ="my-buttons">About Me</button>
-           <button type ="button" class ="my-buttons">Skills</button>
-           <button type ="button" class ="my-buttons">Projects</button>
-           <button type ="button" class ="my-buttons">Contact</button>
+         <ul class="menu">
+           <li><a class="menuItem" href="#">Home</a></li>
+           <li> <a class="menuItem"  href ="#" >About Me</a></li>
+           <li> <a class="menuItem"  href ="#" >Skills</a></li>
+           <li> <a class="menuItem"  href ="#" >Project</a></li>
+           <li> <a class="menuItem"  href ="#" >Contact</a></li>
+          </ul>
+          <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
          </nav>
        </div>
        <div id="main-text" >
@@ -60,7 +67,7 @@
        
        <section id="form-container">
        <div id ="form-content"> 
-          <h2>Send a Message</h2>
+          <h1 id="form-title">Send a Message</h1>
           <label for="first-name">First Name</label>
       </br>
           <input class="first-name" type="text" required placeholder="Required"value="">
@@ -75,7 +82,7 @@
       </br>
           <label for="message">Message</label>
       </br>
-          <textarea > </textarea>
+          <textarea cols="25" rows= "10" > </textarea>
       </br>
           <button type="submit">Send a Message</button>
       </section>
@@ -83,5 +90,6 @@
        </section>
        </div>
     </main> 
+    <script src="app.js"></script>
   </body>
 </html>
