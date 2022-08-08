@@ -1,13 +1,14 @@
 *
 {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .page {
     background-color: rgb(0,62,123);
     height:600px;
     width:1201px;
-    position:relative
+    position:relative; 
 }
 #white-box {
     background-color: white;
@@ -45,16 +46,17 @@
 
 }
 .menuItem {
-    background-color: white;
     border: none;
-    font-size: 16px;
+    font-size: 40px;
+    color: rgb(0,62,123);
+    font-weight: bold;
 }
 .hamburger {
-    position: fixed;
+    position: relative;
     z-index: 100;
     top: 1rem;
     right: 1rem;
-    padding: 4px;
+    padding: 10px;
     border: black solid 1px;
     background: white;
     cursor: pointer;
@@ -68,11 +70,13 @@
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: black;
+    background: rgb(255, 255, 255);
     color: white;
     list-style: none;
     padding-top: 4rem;
+
   }
+  
 .closeIcon {
     display: none;
   }
@@ -195,11 +199,13 @@ img {
     bottom: 300px;
 }
 
+
+  /*form styling*/
 #form-container {
     background-color: white;
     position: absolute;
     width: 600px;
-    height: 500px;
+    height: 600px;
     top: 200px;
     left:300px;
     right:300px;
@@ -214,10 +220,21 @@ img {
     width: 300px;
     height: 300px;
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: 25px;
     bottom: 25px
 }
 #form-title {
     font-size: 30px; 
+}
+
+#submit-form {
+    padding: 5px;
+    border: black solid 1px;
+    background:rgb(245,190,219);
+    position: absolute;
+    font-weight: bold;
+    color: rgb(0,62,123);
+
+
 }

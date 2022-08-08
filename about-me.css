@@ -1,107 +1,59 @@
 * {
     box-sizing: border-box;
 }
-
- #deco-container {
-    width: 1201px; /*ideally 1221px*/
-    height: 600px;
-    background-color: rgb(0, 62,123);
-    position:relative;
+body {
+    background-color:rgb(0,62,123) ;
 }
 
-#my-title { 
-    border: none;
-    background-color: white;
-    position: absolute;
-    width: 200px;
-    top: -69px;
-    left: -0px;
-}
 /*why won't this work?*/
-#about-tile {
-    font-size: 100px;
-    font-weight: bolder;
-    position: absolute;
-    text-align: center;
-    left: 50px;   
+h1 {
+  position: relative;
+  left: 10px;
+  top: 0px;
+  color: black;
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#accpanel{
+    position:absolute;
+    top: 100px;
+    left: 80px;
 }
 
 #aboutme-container {
     background-color: white;
     position: absolute;
-    width: 800px;
-    height: 520px;
+    width: 60%;
+    height: 50%;
     top: 80px;
-    left:200px;
-    right:205px;
+    left:255px;
+    right:250px;
     bottom: 0px;
-    border: solid 1px black;  
+    border: solid 1px black; 
+    border-radius: 10px; 
 }
 
 
-#subsections {
-    position: absolute;
-    left:40px;
-    right:40px;
-    top: 50px;
-}
-.subsection-boxes {
-    
-}
-/*#top-blue {
-   width: 250px;
-   height: 250px;
-   background-color: rgb(0,62,123);
-   position: absolute;
-   right: 20px;
-   top: 20px;
+.accordion {
+        background-color: rgb(245,190,219);
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 600px;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
 }
 
-#top-shadow {
-    width: 250px;
-    height: 250px;
-    background-color: rgb(245,190,219);
-    position: absolute;
-    right: 50px;
-    top: 50px;
- }
-
- #bottom-blue {
-    width: 250px;
-    height: 250px;
-    background-color: rgb(0,62,123);
-    position: absolute;
-    left:20px;
-    bottom: 20px;
- }
- 
- #bottom-shadow {
-     width: 250px;
-     height: 250px;
-     background-color: rgb(245,190,219);
-     position: absolute;
-     left: 50px;
-     bottom: 50px;
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
   }
-
- #plain-box1 {
-    width: 150px;
-     height: 150px;
-     background-color: white;
-     border: solid 2px black;
-     position: absolute;
-     left: 50px;
-     top: 50px;
-
- }
-
- #plain-box2 {
-    width: 150px;
-     height: 150px;
-     background-color: white;
-     border: solid 2px black;
-     position: absolute;
-     right: 50px;
-     bottom: 50px;
-
- }*/
