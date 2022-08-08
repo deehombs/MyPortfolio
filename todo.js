@@ -1,3 +1,4 @@
+//To Do List JS
 document.querySelector('#push').onclick = function(){
   if(document.querySelector('#newtask input').value.length == 0){
       alert("Kindly Enter Task Name!!!!")
@@ -23,3 +24,14 @@ document.querySelector('#push').onclick = function(){
       }
   }
 }
+
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("currentDate").textContent = month + "/" + day + "/" + year;
+
+const funcLocal = () => {
+  localStorage.setItem('Local Key', 'Input Value');
+};
+ funcLocal ();
