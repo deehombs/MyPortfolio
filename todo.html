@@ -8,20 +8,14 @@
     <title>To Do List</title>
 </head>
 <body>
-    <div id="myDIV" class="header">
-        <h1>My To Do List</h1>
-        <input type="text" id="myInput" placeholder="Write task here...">
-        <span onclick="newElement()" class="addBtn"> Add </span>
-      </div>
-      
-      <ul id="myList">
-        <li>Return library book</li>
-        <li class="checked">Pay parking fine</li>
-        <li>Go swimming</li>
-        <li>Buy ingredients for dinner</li>
-        <li>Read</li>
-        <li>Clean my room </li>
-      </ul>
-<script src="todo.js"></script>
+  <div class="container">
+    <div id="newtask">
+        <input type="text" placeholder="Add Tasks">
+        <button id="push">Add</button>
+    </div>
+    <div id="tasks"></div>
+
+</div>
+  <script src="todo.js"></script>
 </body>
 </html>
